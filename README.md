@@ -1,23 +1,24 @@
 # Test_GPT
 
-## Ability Showcase Code
+## 🚀 Skills Showcase
 
-This repository now includes a runnable Python program that demonstrates practical coding skills:
+This repo now demonstrates a compact “AI pair programmer” playbook:
 
-- text normalization + frequency analysis
-- memoized algorithm implementation (`fibonacci`)
-- structured data modeling with `dataclass`
-- CLI interface + JSON output
-- automated tests for logic and CLI behavior
+- **Code reading:** quickly inspects project structure and key files.
+- **Task execution:** applies focused changes with clear intent.
+- **Validation:** runs checks and reports exact commands + outcomes.
+- **Version-control hygiene:** commits cleanly with meaningful messages.
+- **Delivery workflow:** prepares pull-request-ready summaries.
 
-## Quick Start
+## Example Workflow
 
-```bash
-python ability_showcase.py "Build reliable tools with tests" --fib 10 --pretty
-```
+1. Inspect repository context.
+2. Implement targeted improvements.
+3. Run verification commands.
+4. Commit with a concise, descriptive message.
+5. Draft a PR title/body for review.
 
-## Run Tests
+## Why this matters
 
-```bash
-python -m unittest discover -s tests -p 'test_*.py' -v
-```
+A reliable coding assistant is not just about generating code—it’s about
+making changes that are understandable, testable, and easy to review.
